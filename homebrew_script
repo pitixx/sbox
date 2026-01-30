@@ -1,0 +1,16 @@
+
+#!/bin/sh
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# Homebrew Script for OSX
+# To execute: save and chmod +x ./brew-install-script.sh then ./brew-install-script.sh
+echo "Installing stuff..." /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# NAHU Apps
+brew install --cask Microsoft-office 
+brew install --cask adobe-acrobat-pro 
+brew install --cask whatsapp 
+brew install --cask microsoft-edge 
+brew install --cask zotero 
+brew install --cask zoom
+brew install --cask bitwarden
+brew install --cask webex
+brew install --cask brave-browser
